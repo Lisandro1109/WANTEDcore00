@@ -1,0 +1,7 @@
+{
+  "/espacio/tablas/page": "app/espacio/tablas/page.js",
+  "/espacio/ajustes/page": "app/espacio/ajustes/page.js",
+  "/espacio/crm/page": "app/espacio/crm/page.js",
+  "/espacio/miembros/page": "app/espacio/miembros/page.js",
+  "/espacio/bandeja/page": "app/espacio/bandeja/page.js"
+}

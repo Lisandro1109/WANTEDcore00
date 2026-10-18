@@ -1,0 +1,22 @@
+---
+description: Obliga a leer y actualizar CONTEXT.md al integrar, editar o eliminar partes de WANTED core
+alwaysApply: true
+---
+
+# Contexto de WANTED core
+
+`CONTEXT.md`, en la raíz del repositorio, es la fuente de verdad del producto, de su estructura y del estado de cada parte.
+
+Antes de integrar, editar o eliminar cualquier parte:
+
+1. Lee `CONTEXT.md` completo.
+2. Respeta las decisiones cerradas, el modelo de cuentas y el aislamiento por padre.
+3. Limita el trabajo a la fase en curso. No implementes partes marcadas como futuras.
+
+En el mismo cambio, actualiza `CONTEXT.md` si el trabajo:
+
+- agrega, renombra, mueve o elimina una app, paquete, módulo, tabla, pantalla o integración
+- cambia cuentas, permisos, canales, idioma, alojamiento o arquitectura
+- cambia el estado de una parte (`planificado`, `en curso`, `activo`, `retirado`)
+
+Actualiza la sección de esa parte, la estructura del repositorio si cambian carpetas, y el registro de cambios con fecha y una línea. Si el cambio no altera el sistema, no reescribas el archivo.

@@ -1,0 +1,18 @@
+{
+  "name": "wanted-core",
+  "private": true,
+  "packageManager": "pnpm@10.30.0",
+  "pnpm": {
+    "onlyBuiltDependencies": ["esbuild"]
+  },
+  "scripts": {
+    "typecheck": "pnpm -r --if-present typecheck",
+    "db:generate": "pnpm --filter @wanted/db generate",
+    "db:migrate": "pnpm --filter @wanted/db migrate",
+    "db:seed": "pnpm --filter @wanted/db seed",
+    "db:check": "pnpm --filter @wanted/db check",
+    "api:check": "pnpm --filter @wanted/api check",
+    "dev:api": "pnpm --filter @wanted/api dev",
+    "dev:web": "pnpm --filter @wanted/web dev"
+  }
+}
